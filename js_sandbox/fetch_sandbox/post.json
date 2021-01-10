@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Post One",
+    "author": "Author One",
+    "body": "This is post one"
+  },
+
+  {
+    "title": "Post Two",
+    "author": "Author Two",
+    "body": "This is post two"
+  },
+
+  {
+    "title": "Post Three",
+    "author": "Author Three",
+    "body": "This is post three"
+  }
+]

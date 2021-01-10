@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/litera/bootstrap.min.css">
+  <title>GitHub Profile Finder</title>
+</head>
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-dark bg-primary mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">GitHub Profile Finder</a>
+    </div>
+  </nav>
+
+  <!-- Search area -->
+  <div class="container searchContainer">
+    <div class="search card card-body">
+      <h1>Search GitHub Users</h1>
+      <p class="lead">Enter a username to fetch a user profile and repos</p>
+      <input type="text" id="searchUser" class="form-control" placeholder="GitHub Username...">
+    </div>
+    <br>
+     <!-- Display profile results -->
+    <div id="profile"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-5 p-3 text-center bg-light">
+    GitHub Finder Module &copy; 2020 - C.C.C.S.
+  </footer>
+
+  <!-- JavaScript Script -->
+  <script src="github.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

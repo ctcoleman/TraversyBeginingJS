@@ -1,0 +1,7 @@
+.is-invalid {
+  border: solid .5px red;
+}
+
+.is-invalid-text {
+  color: red;
+}
