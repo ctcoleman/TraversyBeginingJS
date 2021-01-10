@@ -2,7 +2,7 @@ class GitHub {
   constructor() {
     this.auth_token = {
       headers: {
-        authorization: "token 705f9484e7b3dec220bb70ace42e0b9608da0ef3"
+        authorization: "token [entertokennumberhere]"
       }
     }
 
